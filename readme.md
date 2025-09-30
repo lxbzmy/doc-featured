@@ -73,4 +73,4 @@ pnpm dev
 | 01-docsify | 200 个包，约 36MB | 否 | 浏览器端渲染 |
 | 02-vitepress | 127 个包，约 90M | 有 | 构建时转换 |
 | 03-docusaurus | 1146 个包，约 299M | 有 | 构建时转换 |
-| 04-asciidoc-antora | 199 个包，约 47M | 否 | 构建时转换 |
+| 04-asciidoc-antora | 169 个包，约 28M | 否 | 构建时转换 |
