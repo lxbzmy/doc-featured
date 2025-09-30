@@ -1,0 +1,24 @@
+site:
+  title: DevOps学习园地
+  url: https://example.org
+  start_page: docs:ROOT:index.adoc
+
+content:
+  sources:
+  - url: ..
+    branches: main
+    start_path: 04-asciidoc-antora/docs
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+
+asciidoc:
+  attributes:
+    source-highlighter: highlight.js
+    page-pagination: true
+
+output:
+  dir: ./public
